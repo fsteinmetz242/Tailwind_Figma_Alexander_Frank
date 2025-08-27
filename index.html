@@ -8,30 +8,40 @@
     <title>Find Your Dream Home</title>
   </head>
   <body>
-    <header class="flex">
-      <!-- flex bg-bg-header-hero-fef7f2 -->
-      <div class="w-3/12 fill-h-tag-2b1b12">
-        <div class="fill-amber-100" style="width: 200px; height: 200px"></div>
-        <!-- Logo-->
-        <h1 class="w-3/12 bg-h-tag-2b1b12">Dwello Logo</h1>
-      </div>
-      <nav class="border-2 w-9/12">
-        <!-- Navigation-->
-        <ul class="flex flex-row gap-3 place-content-center">
-          <li>Home</li>
-          <li>Service</li>
-          <li>Agents</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-      <div class="flex flex-row gap-5">
-        <!-- Suche -->
-        <img src="./img/Header/header-magnifying-glass.svg" alt="" />
-        <!-- User -->
-        <img src="./img/Header/header-user.svg" alt="" />
-        <!-- Signup -->
-        <button>Signup</button>
-      </div>
+    <header>
+      <section
+        class="flex bg-[#fef7f2] justify-between items-center mx-auto px-8 py-6 max-w-[1280px]"
+      >
+        <div class="w-3/12 place-content-center">
+          <!-- Logo-->
+          <img src="./img/Header/Header-logo-Dwello.png" alt="Dwello Logo" />
+        </div>
+        <nav class="w-6/12 place-content-center">
+          <!-- Navigation-->
+          <ul class="flex flex-row space-x-10 font-bold font-[Montserrat]">
+            <li>
+              <a href="#" class="font-bold font-[Montserrat]">Home</a>
+            </li>
+            <li><a href="#" class="font-bold font-[Montserrat]">Service</a></li>
+            <li><a href="#" class="font-bold font-[Montserrat]">Agents</a></li>
+            <li><a href="#" class="font-bold font-[Montserrat]">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="flex items-center space-x-8">
+          <!-- Suche -->
+          <img
+            class="w-5 h-5"
+            src="./img/Header/header-magnifying-glass.svg"
+            alt=""
+          />
+          <!-- User -->
+          <img class="w-5 h-5" src="./img/Header/header-user.svg" alt="" />
+          <!-- Signup -->
+          <a href="#" class="bg-[#2b1b12] text-[#ffffff] px-6 py-2 rounded-lg"
+            >Sign up</a
+          >
+        </div>
+      </section>
     </header>
     <main>
       <section id="hero" class="flex bg-[#fef7f2] px-4">

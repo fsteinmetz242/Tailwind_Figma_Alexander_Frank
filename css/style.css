@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url(./frank.css);
 
 @theme {
   --color-h-tag-2b1b12: #2b1b12;
