@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link href="http://127.0.0.1:5500/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <title>Find Your Dream Home</title>
   </head>
   <body>
@@ -44,27 +49,69 @@
       </section>
     </header>
     <main>
-      <section id="hero" class="flex bg-[#fef7f2] px-4">
-        <div class="flex-1/2 pt-[245px] pl-5%">
-          <h1
-            class="font-extrabold font-[Montserrat] text-[#2B1B12] text-7xl lg:text-7xl sm:text-5xl"
+      <section id="hero" class="bg-[#fef7f2] font-[Montserrat]">
+        <div
+          class="flex max-md:flex-wrap max-md:px-5 md:pl-20 lg:pl-30 xl:pl-40"
+        >
+          <div
+            class="max-md:w-full md:max-1/3 lg:max-w-1/3 max-md:pt-12 md:pt-18 lg:pt-24 xl:pt-32"
           >
-            Find Your Dream Home
-          </h1>
-          <p>
-            Explore our curated selection of exquisite properties meticulously
-            tailored to your unique dream home vision
-          </p>
-          <button class="rounded-xl bg-[#2B1B12] text-white w-[176px]">
+            <h1
+              class="font-extrabold text-[#2B1B12] max-md:text-xl md:text-4xl lg:text-4xl xl:text-7xl pl-[1px]"
+            >
+              Find Your
+            </h1>
+            <span
+              class="font-extrabold text-[#2B1B12] max-md:text-xl md:text-4xl lg:text-4xl xl:text-[68px] pl-[1px]"
+              >Dream Home</span
+            >
+            <p
+              class="max-md:text-sm/relaxed lg:text-[16px]/relaxed xl:text-lg/relaxed font-bold text-[#4f3527] max-md:mt-6 md:mt-8 lg:mt-14 xl:mt-18 xl:pr-36"
+            >
+              Explore our curated selection of exquisite properties meticulously
+              tailored to your unique dream home vision
+            </p>
+            <button
+              class="rounded-lg font-semibold max-md:text-sm md:text-sm lg:text-[16px] xl:text-lg bg-[#2B1B12] text-white w-[176px] max-md:mt-8 md:mt-8 lg:mt-16 xl:mt-20 max-md:py-2 md:py-3 lg:py-4 xl:py-4 pl-[1px] hover:bg-white hover:text-[#2B1B12] hover:border-[#2B1B12] border-2"
+            >
+              Sign up
+            </button>
+          </div>
+          <div
+            id="hero-image-container"
+            class="w-[1050px] min-w-[150px] max-md:order-2"
+          >
+            <img
+              class="w-full aspect-square"
+              src="img/Hero/hero-image.png"
+              alt="Luxushaus"
+            />
+          </div>
+        </div>
+        <div
+          id="signup-form"
+          class="flex flex-row max-md:flex-col max-md:py-5 max-xl:w-[80%] max-md:gap-4 bg-[#DDC7BB] rounded-[16px] max-w-[1070px] min-h-[160px] m-auto md:items-center md:justify-evenly z-10 absolute xl:left-[50%] xl:top-[115%] xl:translate-[-50%]"
+        >
+          <input
+            type="text"
+            placeholder="Location"
+            class="max-md:m-auto bg-[#fef7f2]"
+          />
+          <input
+            type="text"
+            placeholder="Type"
+            class="max-md:m-auto bg-[#fef7f2]"
+          />
+          <input
+            type="text"
+            placeholder="Price Range"
+            class="max-md:m-auto bg-[#fef7f2]"
+          />
+          <button
+            class="max-md:m-auto rounded-lg font-semibold max-md:text-sm md:text-sm lg:text-[16px] xl:text-lg bg-[#2B1B12] text-white w-[176px] max-md:py-2 md:py-3 lg:py-4 xl:py-4 pl-[1px] hover:bg-white hover:text-[#2B1B12] hover:border-[#2B1B12] border-2 border-[#DDC7BB]"
+          >
             Sign up
           </button>
-        </div>
-        <div id="hero-image-container" class="w-[1050px]">
-          <img
-            class="w-full aspect-square"
-            src="img/Hero/hero-image.png"
-            alt="Luxushaus"
-          />
         </div>
       </section>
       <section>
