@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-h-tag-2b1b12: #2b1b12;
+  --color-p-tag-4f3527: #4f3527;
+  --color-form-card-footer-ddc7bb: #ddc7bb;
+  --color-header-hero-fef7f2: #fef7f2;
+  --color-header-hero-button-2b1b12: #2b1b12;
+  --color-header-hero-button-text-ffffff: #ffffff;
+  --color-section1-ffffff: #ffffff;
+  --color-section4-fef7f2: #fef7f2;
+  --color-section4-star-ffc71e: #ffc71e;
+  --color-section5-input-ddc7bb: #ddc7bb;
+  --color-footer-ddc7bb: #ddc7bb;
+}
