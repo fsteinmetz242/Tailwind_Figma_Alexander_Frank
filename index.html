@@ -72,6 +72,7 @@
               tailored to your unique dream home vision
             </p>
             <button
+              type="submit"
               class="rounded-lg font-semibold max-md:text-sm md:text-sm lg:text-[16px] xl:text-lg bg-[#2B1B12] text-white w-[176px] max-md:mt-8 md:mt-8 lg:mt-10 xl:mt-20 max-md:py-2 md:py-3 lg:py-4 xl:py-4 pl-[1px] hover:bg-white hover:text-[#2B1B12] hover:border-[#2B1B12] border-2"
             >
               Sign up
@@ -91,30 +92,86 @@
       </section>
       <section class="flex justify-center">
         <!-- Suchbox: Location | Type | Price Range | Button-->
-        <div
-          id="signup-form"
+        <form
+          action="get"
           class="flex flex-row shrink max-md:flex-col gap-4 px-4 max-md:py-4 max-xl:w-[90%] justify-between bg-[#DDC7BB] rounded-[16px] min-w-[60%] max-w-[1070px] max-xl:min-h-24 xl:min-h-[160px] m-auto md:items-center md:justify-evenly z-10 top-[105%] translate-y-[-25%] md:translate-y-[-50%]"
         >
           <input
             type="text"
             placeholder="Location"
-            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:out-none focus:border-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url('img/hero/hero-map-pin.svg')] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
+            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:ring-0 focus:outline-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url(./img/hero/hero-map-pin.svg)] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
           />
           <input
             type="text"
             placeholder="Type"
-            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:out-none focus:border-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url('img/hero/hero-house.svg')] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
+            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:ring-0 focus:outline-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url(./img/hero/hero-house.svg)] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
           />
           <input
             type="text"
             placeholder="Price Range"
-            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:out-none focus:border-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url('img/hero/hero-coin.svg')] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
+            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:ring-0 focus:outline-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url(./img/hero/hero-coin.svg)] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
           />
           <button
+            type="submit"
             class="max-md:m-auto rounded-lg max-md:w-[90%] max-lg:w-24 font-semibold max-lg:text-sm lg:text-[16px] xl:text-lg bg-[#2B1B12] text-white w-[176px] max-md:py-2 md:py-2 lg:py-2 xl:py-4 pl-[1px] hover:bg-white hover:text-[#2B1B12] hover:border-[#2B1B12] border-2 border-[#DDC7BB]"
           >
             Sign up
           </button>
+        </form>
+      </section>
+      <!-- Sektion1 We Help You Find... -->
+      <section
+        class="flex max-xl:flex-col xl:flex-row bg-white font-[Montserrat] max-md:px-5 md:px-20 lg:px-30 xl:px-40 gap-10 xl:gap-20 mb-16"
+      >
+        <div id="section1-image-container" class="flex-1/2">
+          <img
+            src="./img/Section1/section1-image.jpg"
+            alt="luxury_and_rich_home_exterior_side_view"
+            class="xl:w-[595px] rounded-[18px]"
+          />
+        </div>
+        <div
+          id="section1-text"
+          class="flex flex-wrap flex-row flex-1/2 max-xl:gap-8"
+        >
+          <h2
+            class="max-md:text-2xl max-xl:text-4xl xl:text-[40px] xl:leading-[1.4] font-extrabold text-[#2B1B12] xl:pr-60"
+          >
+            We Help You To Find Your Dream Home
+          </h2>
+          <p
+            class="max-md:text-xl/relaxed max-lg:text-lg/relaxed lg:text-lg/relaxed xl:text-lg/relaxed font-bold text-[#4f3527] w-full xl:pr-60"
+          >
+            From cozy cottages to luxurious estates, our dedicated team guides
+            you through every step of the journey, ensuring your dream home
+            becomes a reality
+          </p>
+          <div
+            class="flex w-full justify-between max-md:gap-4 max-md:pr-0 max-xl:pr-40 xl:pr-60"
+          >
+            <div class="inline-block">
+              <p class="max-xl:text-2xl xl:text-5xl font-bold text-[#4F3527]">
+                8K+
+              </p>
+              <p class="xl:text-lg font-semibold text-[#4F3527]">
+                Houses Available
+              </p>
+            </div>
+            <div class="inline-block">
+              <p class="max-xl:text-2xl xl:text-5xl font-bold text-[#4F3527]">
+                6K+
+              </p>
+              <p class="xl:text-lg font-semibold text-[#4F3527]">Houses Sold</p>
+            </div>
+            <div class="inline-block">
+              <p class="max-xl:text-2xl xl:text-5xl font-bold text-[#4F3527]">
+                2K+
+              </p>
+              <p class="xl:text-lg font-semibold text-[#4F3527]">
+                Trusted Agents
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
