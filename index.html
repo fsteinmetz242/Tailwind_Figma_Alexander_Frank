@@ -99,17 +99,17 @@
           <input
             type="text"
             placeholder="Location"
-            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:ring-0 focus:outline-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url(./img/hero/hero-map-pin.svg)] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
+            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:ring-0 focus:outline-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url(./img/Hero/hero-map-pin.svg)] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
           />
           <input
             type="text"
             placeholder="Type"
-            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:ring-0 focus:outline-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url(./img/hero/hero-house.svg)] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
+            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:ring-0 focus:outline-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url(./img/Hero/hero-house.svg)] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
           />
           <input
             type="text"
             placeholder="Price Range"
-            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:ring-0 focus:outline-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url(./img/hero/hero-coin.svg)] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
+            class="max-md:m-auto max-md:w-[90%] max-lg:w-40 focus:ring-0 focus:outline-[#695346] text-[#695346] bg-[#fef7f2] bg-origin-content p-2 bg-[url(./img/Hero/hero-coin.svg)] bg-no-repeat bg-right rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4"
           />
           <button
             type="submit"
@@ -616,7 +616,7 @@
 
       <!-- Section 5 -->
       <section
-        class="flex max-xl:flex-col bg-white font-[Montserrat] max-md:px-5 md:px-20 lg:px-30 xl:px-40 gap-2 xl:gap-5 mb-16"
+        class="flex flex-col bg-white font-[Montserrat] max-md:px-5 md:px-20 lg:px-30 xl:px-40 gap-2 xl:gap-5 mb-16"
       >
         <h2
           class="max-md:text-2xl max-xl:text-4xl xl:text-[40px] xl:leading-[1.4] font-extrabold text-[#2B1B12] text-center mt-20 mb-5 xl:ml-40 xl:mr-40"
@@ -624,7 +624,9 @@
           Do You Have Any Questions? Get Help From Us
         </h2>
 
-        <div class="flex flex-row justify-center items-center gap-20">
+        <div
+          class="flex flex-row flex-nowrap justify-center items-center gap-20"
+        >
           <div class="flex flex-row gap-2 font-[Montserrat] font-bold">
             <img
               class="w-7 h-7"
@@ -644,37 +646,30 @@
             Browse our FAQ
           </div>
         </div>
-        <div
-          class="flex max-xl:flex-col flex-row justify-center items-center gap-20 pb-10"
+        <!-- Email-->
+        <form
+          action="get"
+          class="flex flex-row justify-center shrink max-lg:flex-col gap-4 w-full max-lg:items-center items-end align-middle"
         >
-          <!-- Feld EMail 505 x 58-->
-          <div
-            class="flex flex-row w-125 bg-[#ddc7bb] font-[Montserrat] font-bold pt-4 pb-4 rounded-md"
-          >
-            <img
-              class="w-6 h-6 ml-5 mr-3"
-              src="./img/Section5/section5-email.png"
-              alt=""
-            />
-            Enter your email address...
-          </div>
-          <div
-            class="bg-[#2b1b12] text-[#ffffff] font-[Montserrat] font-bold pl-12 pr-12 pt-5 pb-5 rounded-md"
+          <input
+            type="text"
+            placeholder="       Enter your email address..."
+            class="w-[40%] md:w-[30%] max-lg:w-[50%] max-lg:mt-10 focus:ring-0 focus:outline-[#695346] text-[#543E32] bg-[#DDC7BB] bg-origin-content p-3 bg-[url(./img/Section5/section5-email.svg)] bg-no-repeat bg-left bg-{12px} rounded-lg max-lg:text-sm xl:text-lg font-[700] xl:px-4 xl:py-4 focus:bg-none focus:placeholder-transparent"
+          />
+          <button
+            type="submit"
+            class="rounded-lg align-middle font-semibold max-md:text-sm md:text-sm lg:text-[16px] xl:text-lg bg-[#2B1B12] text-white max-md:mt-8 md:mt-8 lg:mt-10 xl:mt-20 max-md:w-[25%] md:px-20 py-4 hover:bg-[#DDC7BB] hover:text-[#2B1B12] hover:border-[#2B1B12]"
           >
             Submit
-          </div>
-        </div>
+          </button>
+        </form>
       </section>
     </main>
     <footer
       class="flex max-xl:flex-col xl:flex-row bg-[#ddc7bb] font-[Montserrat] max-md:px-5 md:px-20 lg:px-30 xl:px-40 py-20 gap-10 xl:gap-20 mb-16"
     >
-      <!-- bg-[#ddc7bb] flex max-lg:flex-col flex-row py-8 items-center gap-8 -->
-
       <div class="flex flex-row flex-nowrap">
         <div class="">
-          <!-- class="px-12 w-1/3" -->
-          <!-- footer-container linker Bereich Dwello-->
           <!-- Logo-->
           <img
             class="content-center"
@@ -682,14 +677,10 @@
             alt="Dwello Logo"
           />
           <p class="font-bold text-[#4F3527] pt-5 xl:pr-5 xl:w-2/5 w-3/10">
-            <!-- max-xl:text-center xl:pt-5 xl:pr-5 xl:w-2/5 w-3/10 -->
-            <!-- w-1/3-->
             Bringing you closer to your dream home, one click at a time.
           </p>
         </div>
         <div class="flex max-xl:flex-col gap-30 font-bold text-[#4F3527]">
-          <!-- space-x-30 px-16 -->
-          <!-- Footer rechter Bereich Links auf Themen wie "Über uns"-->
           <div class="">
             <section
               class="flex flex-col font-bold text-lg text-[#4F3527] gap-y-5"
